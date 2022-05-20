@@ -1,0 +1,2 @@
+docker pull m0ngr31/dailynotes
+docker run -p 8089:5000 -v /config_dir:/app/config m0ngr31/dailynotes
